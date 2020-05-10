@@ -1,0 +1,7 @@
+CREATE TABLE Blog (
+    id UUID PRIMARY KEY,
+    title VARCHAR(100) NOT NULL,
+    author VARCHAR(100) NOT NULL,
+    url VARCHAR(100) NOT NULL,
+    likes INTEGER NOT NULL
+);
